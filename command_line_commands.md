@@ -128,3 +128,44 @@ cut - Cut the data into fields and only display the specified fields.
 sed - Do a search and replace on the data.
 uniq - Remove duplicate lines.
 tac - Print the data in reverse order.
+
+    egrep - View lines of data which match a particular pattern.
+
+* ". (dot) - a single character."
+* "? - the preceding character matches 0 or 1 times only."
+* "* - the preceding character matches 0 or more times."
+* "+ - the preceding character matches 1 or more times."
+* {n} - the preceding character matches exactly n times.
+* {n,m} - the preceding character matches at least n times and not more than m times.
+* [agd] - the character is one of those included within the square brackets.
+* [^agd] - the character is not one of those included within the square brackets.
+* [c-f] - the dash within the square brackets operates as a range. In this case it means  either the letters c, d, e or f.
+* () - allows us to group several characters to behave as one.
+* | (pipe symbol) - the logical OR operation.
+* ^ - matches the beginning of the line.
+* $ - matches the end of the line.
+***
+\> - Save output to a file.
+\>> - Append output to a file.
+\< - Read input from a file.
+2> - Redirect error messages.
+| - Send the output from one program as input to another program.
+***
+top - View real-time data about processes running on the system.
+q - quits top. VERY IMPORTANT
+ps - Get a listing of processes running on the system.
+kill - End the running of a process.
+jobs - Display a list of current jobs running in the background.
+fg - Move a background process into the foreground.
+ctrl + z - Pause the current foreground process and move it into the background. ALSO QUITS VI and EMACS
+
+#! - Shebang. Indicates which interpreter a script should be run with.
+echo - Print a message to the screen.
+which - Tells you the path to a particular program.
+$ - Placed before a variable name when we are referring to it's value.
+\` ` - Backticks. Used to save the output of a program into a variable.
+date - Prints the date.
+"if [ ] then else if - Perform basic conditional logic."
+
+cd .. - moves up one directory
+
