@@ -169,3 +169,31 @@ date - Prints the date.
 
 cd .. - moves up one directory
 
+~/.bash_profile is where environment settings are stored. You can edit this file with nano.
+
+environment variables are variables that can be used across commands and programs and hold information about the environment.
+
+export VARIABLE="Value" sets and exports an environment variable.
+USER is the name of the current user.
+PS1 is the command prompt.
+HOME is the home directory. It is usually not customized.
+PATH returns a colon separated list of file paths. It is customized in advanced cases.
+env returns a list of environment variables.
+
+Any command that can be run in the terminal can be run in a bash script.
+Variables are assigned using an equals sign with no space (greeting="hello").
+Variables are accessed using a dollar sign (echo $greeting).
+Conditionals use if, then, else, fi syntax.
+Three types of loops can be used: for, while, and until.
+Bash scripts use a unique set of comparison operators:
+Equal: -eq
+Not equal: -ne
+Less than or equal: -le
+Less than: -lt
+Greater than or equal: -ge
+Greater than: -gt
+Is null: -z
+Input arguments can be passed to a bash script after the script name, separated by spaces (myScript.sh "hello" "how are you").
+Input can be requested from the script user with the read keyword.
+Aliases can be created in the .bashrc or .bash_profile using the alias keyword.
+
