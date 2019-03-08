@@ -197,3 +197,9 @@ env returns a list of environment variables.
 *Input can be requested from the script user with the read keyword.
 *Aliases can be created in the .bashrc or .bash_profile using the alias keyword.
 
+Embedding an image
+I think you should be able to use
+![title](image.png)
+or HTML <img> syntax
+there are different flavors of markdown but that should work in Jupyter
+
