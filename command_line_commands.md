@@ -13,7 +13,7 @@ ___
 */etc - Stores config files for the system.
 */var/log - Stores log files for various system programs. (You may not have permission to look at everything in this directory. Don't let that stop you exploring though. A few error messages never hurt anyone.)
 */bin - The location of several commonly used programs (some of which we will learn about in the rest of this tutorial.
-*/usr/bin - Another location for programs on the system. 
+*/usr/bin - Another location for programs on the system.
 *cd – changes the directory
 *after cd there is a path – relative or absolute (always start with a forward slash which represents the absolute root of your file system).
 *Tab – tries to match what you’ve typed so far.
@@ -44,7 +44,7 @@ ___
 * vi - Edit a file.
 * cat - View a file.
 * less - Convenient for viewing large files.
-* 
+*
 *pwd - shows current working directory path
 *mkdir -	create a directory
 *rmdir - remove a directory
@@ -106,7 +106,7 @@ emacs 00-fork_repo.md
 clear
 # print history of commands used
 history
-  
+
 * ls - lists files in your directory
 * ls -a	lists files in your directory including	*hidden ones*
 * ls -l	lists in long format, total sum	of file	sizes
@@ -203,3 +203,10 @@ I think you should be able to use
 or HTML <img> syntax
 there are different flavors of markdown but that should work in Jupyter
 
+
+
+
+Renaming the repo on github:
+
+(base) Natashas-MacBook-Pro:Book_to_Movie_Industry_Analysis nborders$ git remote remove origin
+(base) Natashas-MacBook-Pro:Book_to_Movie_Industry_Analysis nborders$ git remote add origin https://github.com/natashaborders/Book_to_Movie_Ratings_Predictions.git

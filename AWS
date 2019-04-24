@@ -1,0 +1,2 @@
+# standard way
+ssh -i ~/.ssh/aws_key.pem ubuntu@<your ip address>
